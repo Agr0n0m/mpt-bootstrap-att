@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'tangak';
+  src: url('font/tangak.otf');
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#div1{
+  font-size: 30px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#divImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo_name{
+  color: darkorange;
+  font-family: 'tangak';
+  font-size: 30px;
+}
+
+footer{
+  background-color: bisque;
+}
+
+#soc_media {
+  grid-area: soc_media;
+  text-align: center;
+}
+
+#footer_label p {
+  text-align: left;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#adress p, #soc_media p {
+  text-align: center;
+  color: orangered;
+  font-weight: 700;
+}
+#soc_media a {
+  padding: 10px;
+}
+#soc_media a img {
+  width: 40px;
+}
+
+
